@@ -1,0 +1,289 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @nevenasisic
+
+2
+0
+
+    0
+
+nevenasisic/nevenasisicq Private
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Pulse
+Graphs
+Settings
+nevenasisicq/css/grid.css
+66597dd on Jul 19, 2016
+= Prva verzija projekta
+261 lines (212 sloc) 3.45 KB
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.grid {
+    width: 100%;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-lg-1 {
+    width: 8.33%;
+    padding: 0 15px;
+}
+
+.col-lg-2 {
+    width: 16.66%;
+    padding: 0 15px;
+}
+
+.col-lg-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-lg-4 {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.col-lg-5 {
+    width: 41.66%;
+    padding: 0 15px;
+}
+
+.col-lg-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-lg-7 {
+    width: 58.33%;
+    padding: 0 15px;
+}
+
+.col-lg-8 {
+    width: 66.66%;
+    padding: 0 15px;
+}
+
+.col-lg-9 {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.col-lg-10 {
+    width: 83.33%;
+    padding: 0 15px;
+}
+
+.col-lg-11 {
+    width: 91.66%;
+    padding: 0 15px;
+}
+
+.col-lg-12 {
+    width: 100%;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .col-md-1 {
+        width: 8.33%;
+        padding: 0 15px;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+        padding: 0 15px;
+    }
+
+    .col-md-3 {
+        width: 25%;
+        padding: 0 15px;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+        padding: 0 15px;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+        padding: 0 15px;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        padding: 0 15px;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+        padding: 0 15px;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+        padding: 0 15px;
+    }
+
+    .col-md-9 {
+        width: 75%;
+        padding: 0 15px;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+        padding: 0 15px;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+        padding: 0 15px;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .col-sm-1 {
+        width: 8.33%;
+        padding: 0 15px;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+        padding: 0 15px;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+        padding: 0 15px;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+        padding: 0 15px;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+        padding: 0 15px;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        padding: 0 15px;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+        padding: 0 15px;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+        padding: 0 15px;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+        padding: 0 15px;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+        padding: 0 15px;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+        padding: 0 15px;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .col-xs-1 {
+        width: 8.33%;
+        padding: 0 15px;
+    }
+
+    .col-xs-2 {
+        width: 16.66%;
+        padding: 0 15px;
+    }
+
+    .col-xs-3 {
+        width: 25%;
+        padding: 0 15px;
+    }
+
+    .col-xs-4 {
+        width: 33.33%;
+        padding: 0 15px;
+    }
+
+    .col-xs-5 {
+        width: 41.66%;
+        padding: 0 15px;
+    }
+
+    .col-xs-6 {
+        width: 50%;
+        padding: 0 15px;
+    }
+
+    .col-xs-7 {
+        width: 58.33%;
+        padding: 0 15px;
+    }
+
+    .col-xs-8 {
+        width: 66.66%;
+        padding: 0 15px;
+    }
+
+    .col-xs-9 {
+        width: 75%;
+        padding: 0 15px;
+    }
+
+    .col-xs-10 {
+        width: 83.33%;
+        padding: 0 15px;
+    }
+
+    .col-xs-11 {
+        width: 91.66%;
+        padding: 0 15px;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+}
+
